@@ -43,13 +43,13 @@
   {
     "name": "entertainment center",
     "price": 59,
-    "featured": true,
+    "available": true,
     "company": "caressa"
   },
   {
     "name": "high-back bench",
     "price": 39,
-    "featured": true,
+    "available": true,
     "company": "ikea"
   },
 
@@ -61,7 +61,7 @@
   {
     "name": "modern bookshelf",
     "price": 31,
-    "featured": true,
+    "available": true,
     "company": "caressa"
   },
   {
@@ -92,13 +92,13 @@
   {
     "name": "utopia sofa",
     "price": 79,
-    "featured": true,
+    "available": true,
     "company": "liddy"
   },
   {
     "name": "vase table",
     "price": 120,
-    "featured": true,
+    "available": true,
     "company": "marcos"
   },
   {
@@ -119,13 +119,13 @@
   {
     "name": "wooden table",
     "price": 23,
-    "featured": true,
+    "available": true,
     "company": "caressa"
   },
   {
     "name": "a first wooden table",
     "price": 23,
-    "featured": true,
+    "available": true,
     "company": "caressa"
   }
 ]

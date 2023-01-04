@@ -1,17 +1,17 @@
 const mongoose= require('mongoose');
 // const env=require('./environment')
-const dbAddress=process.env.MONGO_URI || store_api_db;
+// const dbAddress=process.env.MONGO_URI || store_api_db;
 mongoose.set('useNewUrlParser', true);
 // connect to the database
 main().catch(err => console.log(err)); //from documentation geting started
 async function main() {
   // await mongoose.connect('mongodb://localhost/codeial_dev_db'); //removed for using env
-  await mongoose.connect(`mongodb://localhost/${dbAddress}`); //used backtick instead of quotes
+  await mongoose.connect(`mongodb://localhost/store_api_db`); //used backtick instead of quotes
   
   
 }
 
-mongoose.connect(`mongodb://localhost/${dbAddress}`).catch(function (reason) {
+mongoose.connect(`mongodb://localhost/store_api_db`).catch(function (reason) {
   console.log('Unable to connect to the mongodb instance. Error: ', reason);
 });
 
